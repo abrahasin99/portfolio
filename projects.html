@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projects - Abu Raihan Tashin</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="home-link">Home</a>
+            <nav>
+                <a href="info.html">Info</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>My Projects</h1>
+        <p>Details about my web and programming projects will be added soon!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Abu Raihan Tashin</p>
+        <p id="footer-location"></p>
+        <p id="footer-modified"></p>
+    </footer>
+    <script>
+        const pageLocation = window.location.href;
+        const lastModifiedDate = document.lastModified;
+        document.getElementById('footer-location').textContent = "Page Location: " + pageLocation;
+        document.getElementById('footer-modified').textContent = "Last Modified: " + lastModifiedDate;
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu Raihan Tashin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="home-link">Home</a>
+            <nav>
+                <a href="info.html">Info</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Abu Raihan Tashin</h1>
+        <section class="about-me">
+            <div class="about-container">
+                <img src="assets/images/profile.jpg" alt="Abu Raihan Tashin" class="profile-pic">
+                <div class="about-text">
+                    <p align="justify">
+                        I'm Abu Raihan Tashin, a Computer Science undergrad at Brac University with a passion for learning and exploring new horizons.Though I'm new to web development, I am confident in my ability to learn quickly and grow into this exciting field. With optimism and determination, I'm ready to embrace challenges and create something amazing.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+         <section class="quote">
+            <blockquote>
+                "A journey of a thousand miles begins with a single step." <br> - Lao Tzu
+            </blockquote>
+        </section>
+
+        <section class="favorite-links">
+            <h2>Favourite Links</h2>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blank">
+                        <i class="fas fa-school"></i> W3Schools
+                    </a>
+                </li>
+                <li>
+                    <a href="https://daily.dev/" target="_blank">
+                        <i class="fas fa-newspaper"></i> Daily.dev
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.crazygames.com/" target="_blank">
+                        <i class="fas fa-gamepad"></i> Crazy Games
+                    </a>
+                </li>
+                <li>
+                    <p>Visit <a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a> site.
+                    </p>
+                </li>
+            
+                <li>
+                    <p>Join <a href="https://discord.gg/bmD43wG5" target="_blank">CSE391</a> Discord.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="social-links">
+            <h3>Find me on</h3>
+            <div class="icons">
+                <a href="https://www.facebook.com/AbuRaihanTashin/" target="_blank" class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/abrahasin99" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abu-raihan-tashin-704a37266/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:abu.tashin01@gmail.com" class="social-icon" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Abu Raihan Tashin | All Rights Reserved</p>
+        <p id="footer-location"></p>
+        <p id="footer-modified"></p>
+    </footer>
+    <script>
+        const pageLocation = window.location.href;
+        const lastModifiedDate = document.lastModified;
+        document.getElementById('footer-location').textContent = "Page Location: " + pageLocation;
+        document.getElementById('footer-modified').textContent = "Last Modified: " + lastModifiedDate;
+    </script>
+</body>
+</html>

@@ -1,105 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abu Raihan Tashin</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <a href="index.html" class="home-link">Home</a>
-            <nav>
-                <a href="info.html">Info</a>
-                <a href="hobbies.html">Hobbies</a>
-                <a href="projects.html">Projects</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abu Raihan Tashin | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Abu Raihan Tashin, full stack developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<nav class="nav" aria-label="Main"><div class="wrap"><a class="logo" href="index.html">Abu Raihan Tashin</a><button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button><ul class="menu" id="menu"><li><a href="index.html#home">Home</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#skills">Skills</a></li><li><a href="index.html#education">Education</a></li><li><a href="index.html#projects">Projects</a></li><li><a href="index.html#contact">Contact</a></li></ul></div></nav>
+<main><div class="wrap">
+<header class="hero" id="home"><div>
+<h1>Abu Raihan Tashin</h1><div class="role">Full Stack Developer</div>
+<p>I’m among those who have struggled, strived, fallen, learned and moved on. I’m always eager to learn how things work behind the hood.</p>
+<div class="btns"><a class="btn primary" href="assets/resume.pdf" download="Abu-Raihan-Tashin-Resume.pdf">Download resume</a><a class="btn ghost" href="#projects">View projects</a></div>
+<div class="social"><a href="https://github.com/abrahasin99" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/abu-raihan-tashin/" target="_blank" rel="noopener">LinkedIn</a><a href="https://x.com/abrahasin99" target="_blank" rel="noopener">Twitter / X</a><a href="https://www.facebook.com/abrahasin99/" target="_blank" rel="noopener">Facebook</a></div>
+</div><img class="photo" src="assets/photo.jpg" alt="Portrait of Abu Raihan Tashin in a black blazer and white shirt"></header>
 
-    <main>
-        <h1>Abu Raihan Tashin</h1>
-        <section class="about-me">
-            <div class="about-container">
-                <img src="assets/images/profile.jpg" alt="Abu Raihan Tashin" class="profile-pic">
-                <div class="about-text">
-                    <p align="justify">
-                        I'm Abu Raihan Tashin, a Computer Science undergrad at Brac University with a passion for learning and exploring new horizons.Though I'm new to web development, I am confident in my ability to learn quickly and grow into this exciting field. With optimism and determination, I'm ready to embrace challenges and create something amazing.
-                    </p>
-                </div>
-            </div>
-        </section>
+<section id="about"><h2>About me</h2><div class="about"><div>
+<p>I didn’t take to the academic culture of learning. School felt like memorising for exams, and I struggled with it. Along the way I fell, learned and moved on, and that stretch taught me more about discipline than any grade did.</p>
+<p>Then I found my own interests: literature, law, economics, philosophy, history and politics. Reading in those areas taught me to ask why things are the way they are, and the same habit led me to programming. I started with HTML, CSS and JavaScript, moved on to React and Next.js, and I’m now building out the backend with Node.js and Express.</p>
+<p>I enjoy building clean, responsive interfaces and working out how the pieces behind them fit together: APIs, data and server logic. I picked web development for its robustness and for how much it rewards fast, learning-based delivery. One day I’d like to grow into a project manager.</p>
+</div><aside class="facts"><h3>Outside of code</h3><ul><li>Literature and philosophy</li><li>Law and economics</li><li>History and politics</li></ul></aside></div></section>
 
-         <section class="quote">
-            <blockquote>
-                "A journey of a thousand miles begins with a single step." <br> - Lao Tzu
-            </blockquote>
-        </section>
+<section id="skills"><h2>Skills</h2><div class="skills">
+<div class="group"><h3>Frontend</h3>
+<div class="bar"><span>HTML<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:90%"></i></div><div class="bar"><span>CSS<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:85%"></i></div><div class="bar"><span>JavaScript<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:80%"></i></div><div class="bar"><span>React<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:75%"></i></div><div class="bar"><span>Next.js<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:70%"></i></div></div>
+<div class="group"><h3>Backend</h3>
+<div class="bar"><span>Node.js<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:65%"></i></div><div class="bar"><span>Express.js<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:65%"></i></div><div class="bar"><span>MongoDB<em style="font-style:normal;color:var(--muted)">Learning</em></span><i style="--l:40%"></i></div><div class="bar"><span>PostgreSQL<em style="font-style:normal;color:var(--muted)">Learning</em></span><i style="--l:35%"></i></div></div>
+<div class="group"><h3>Tools</h3>
+<div class="bar"><span>Git<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:75%"></i></div><div class="bar"><span>GitHub<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:75%"></i></div><div class="bar"><span>VS Code<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:85%"></i></div><div class="bar"><span>Tailwind CSS<em style="font-style:normal;color:var(--muted)"></em></span><i style="--l:70%"></i></div></div>
+</div></section>
 
-        <section class="favorite-links">
-            <h2>Favourite Links</h2>
-            <ul>
-                <li>
-                    <a href="https://www.w3schools.com/" target="_blank">
-                        <i class="fas fa-school"></i> W3Schools
-                    </a>
-                </li>
-                <li>
-                    <a href="https://daily.dev/" target="_blank">
-                        <i class="fas fa-newspaper"></i> Daily.dev
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.crazygames.com/" target="_blank">
-                        <i class="fas fa-gamepad"></i> Crazy Games
-                    </a>
-                </li>
-                <li>
-                    <p>Visit <a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a> site.
-                    </p>
-                </li>
-            
-                <li>
-                    <p>Join <a href="https://discord.gg/bmD43wG5" target="_blank">CSE391</a> Discord.</p>
-                </li>
-            </ul>
-        </section>
+<section id="education"><h2>Education</h2>
+<div class="item"><h3>Bachelor of Science (B.Sc.) in Computer Science and Engineering</h3><div class="when">BRAC University, Bangladesh &middot; Ongoing</div><p>Studying computer science while building web projects on my own.</div></section>
 
-        <section class="social-links">
-            <h3>Find me on</h3>
-            <div class="icons">
-                <a href="https://www.facebook.com/AbuRaihanTashin/" target="_blank" class="social-icon" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://github.com/abrahasin99" target="_blank" class="social-icon" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/abu-raihan-tashin-704a37266/" target="_blank" class="social-icon" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="mailto:abu.tashin01@gmail.com" class="social-icon" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                
-                
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Abu Raihan Tashin | All Rights Reserved</p>
-        <p id="footer-location"></p>
-        <p id="footer-modified"></p>
-    </footer>
-    <script>
-        const pageLocation = window.location.href;
-        const lastModifiedDate = document.lastModified;
-        document.getElementById('footer-location').textContent = "Page Location: " + pageLocation;
-        document.getElementById('footer-modified').textContent = "Last Modified: " + lastModifiedDate;
-    </script>
-</body>
-</html>
+<section id="projects"><h2>Projects</h2><div class="cards" id="cards"></div></section>
+<section id="contact"><h2>Contact</h2><div class="contact">
+<a href="mailto:abu.raihan.tashin@g.bracu.ac.bd"><b>Email</b>abu.raihan.tashin@g.bracu.ac.bd</a>
+<a href="tel:+8801879482023"><b>Phone</b>+88 01879 - 482023</a>
+<a href="https://wa.me/8801879482023" target="_blank" rel="noopener"><b>WhatsApp</b>+88 01879 - 482023</a>
+</div></section>
+</div></main>
+<footer>&copy; 2026 Abu Raihan Tashin. All rights reserved.</footer>
+<script src="script.js"></script></body></html>
